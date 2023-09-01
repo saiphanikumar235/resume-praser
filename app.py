@@ -5,7 +5,7 @@ import docx2txt
 st.title("Resume Parser with OpenAI GPT-3")
 
 # Upload a resume file
-uploaded_resume = st.file_uploader("Upload a resume (PDF or text)", type=["pdf", "txt"])
+uploaded_resume = st.file_uploader("Upload a resume (PDF or text)", type=["pdf", "txt", "docx"], accept_multiple_files=True)
 
 if uploaded_resume is not None:
     resume_text = ""
