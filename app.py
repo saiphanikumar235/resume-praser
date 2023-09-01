@@ -1,5 +1,4 @@
 import streamlit as st
-import openai
 import fitz  # PyMuPDF library for PDF processing
 
 st.title("Resume Parser with OpenAI GPT-3")
