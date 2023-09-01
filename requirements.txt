@@ -1,1 +1,2 @@
-aspose
+aspose-words
+docx2txt
