@@ -1,1 +1,2 @@
-PyMuPDF
+aspose
+docx2txt
